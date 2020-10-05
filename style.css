@@ -36,7 +36,6 @@
     }
     
     .container2 {
-        /* position: relative; */
         font-family: 'Anton', sans-serif;
         display: flex;
         height: 90%;
@@ -44,21 +43,15 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        /* border: 1px solid red  ; */
     }
     
     h1 {
         font-size: 60px;
-        line-height: 1.0;
         letter-spacing: 10px;
         font-weight: 100;
-        z-index: 3;
         justify-content: center;
         background-size: 80px 60px;
-        /* 80 pixels de largura e 60 pixels de altura */
         background-size: 300px;
-        /* 300 pixels de largura e altura automática */
-        background-image: url(/logo.png);
         display: flex;
         height: 300;
     }
@@ -70,11 +63,6 @@
         font-weight: 100;
         z-index: 3;
         text-align: center;
-        background-color: lawngreen;
-    }
-    
-    p {
-        background-color: lawngreen;
     }
     
     .footer {
@@ -89,4 +77,26 @@
     
     h5 {
         padding: 5px;
+    }
+    
+    .svg {
+        position: fixed;
+        right: 10vmin;
+        width: 850px;
+        height: 650px;
+        justify-content: start;
+        z-index: -1;
+        mix-blend-mode: hard-light;
+    }
+    
+    h1 {
+        font-size: 2.5;
+        font-weight: 700;
+    }
+    
+    p {
+        font-size: 1.2em;
+        font-weight: 600;
+        max-width: 500px;
+        line-height: 1.8em;
     }
